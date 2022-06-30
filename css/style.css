@@ -1,0 +1,77 @@
+*{padding: 0;margin: 0;border: none;}
+body{background-color: rgb(243, 243, 243); font-family:Georgia, Times, 'Times New Roman', serif;}
+.Container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:auto;
+    height: 539px;
+    background-color: rgb(243, 243, 243);}
+
+.Img{
+    width:700px; height:650px;
+    background-image: url(../img/instagram-celular.png);
+    background-repeat: none;
+    background-size: cover;
+}
+/*Apagar isso
+.Cont1,.Cont{
+    width:50%;
+    border: solid 1px black;
+}*/
+.Cont{
+    
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.UserInfo, .Info{border: 1px solid #d4d4d8;background-color: white;width: 350px;}
+.UserInfo{
+    margin-top: 150px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.UserPict{
+    width:130px;
+    height:130px;
+    border-radius: 50%;
+}
+#getIn,.TxtColor{text-decoration: none;}
+#getIn{
+    color: white;
+    background-color: #0095f6;
+    width: 30vh;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.TxtColor{color: #0095f6;}
+.Info{color: #a1a1aa; height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Store{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#appleStoreImg, #googlePlayImg{
+    width:140px;
+    height: 42px;
+}
+
+
+
+
