@@ -1,12 +1,14 @@
 *{padding: 0;margin: 0;border: none;}
-body{background-color: rgb(243, 243, 243); font-family:Georgia, Times, 'Times New Roman', serif;}
+body{ display:flex; justify-content:center;background-color: rgb(243, 243, 243); font-family:Georgia, Times, 'Times New Roman', serif;}
 .Container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:flex-start;
     align-items: center;
-    width:auto;
-    height: 539px;
-    background-color: rgb(243, 243, 243);}
+    width:90%;
+    height: 580px;
+    background-color: rgb(243, 243, 243);
+
+}
 
 .Img{
     width:700px; height:650px;
@@ -14,23 +16,18 @@ body{background-color: rgb(243, 243, 243); font-family:Georgia, Times, 'Times Ne
     background-repeat: none;
     background-size: cover;
 }
-/*Apagar isso
-.Cont1,.Cont{
-    width:50%;
-    border: solid 1px black;
-}*/
 .Cont{
-    
     display: flex;
-    align-items: baseline;
+    align-items: center;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
-.UserInfo, .Info{border: 1px solid #d4d4d8;background-color: white;width: 350px;}
+.UserInfo, 
+.Info{border-radius: 3px; border: 1px solid #d4d4d8;background-color: white;width: 450px;}
 .UserInfo{
-    margin-top: 150px;
     height: 340px;
+    margin: 10px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -39,7 +36,7 @@ body{background-color: rgb(243, 243, 243); font-family:Georgia, Times, 'Times Ne
 .UserPict{
     width:130px;
     height:130px;
-    border-radius: 50%;
+    border-radius:50%;
 }
 #getIn,.TxtColor{text-decoration: none;}
 #getIn{
@@ -60,11 +57,13 @@ body{background-color: rgb(243, 243, 243); font-family:Georgia, Times, 'Times Ne
     align-items: center;
 }
 .Store{
+    
     width: 350px;
+    height: 95px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #appleStoreImg, #googlePlayImg{
